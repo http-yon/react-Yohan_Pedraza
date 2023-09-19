@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  margin: 5rem;
+}
+
+#lista{
+  margin: 2rem;
+  text-align: center;
+  padding: 2rem;
+  background-color: rgb(248, 209, 151);
+}
+
+#lista div{
+  padding: 0.5rem;
+}
