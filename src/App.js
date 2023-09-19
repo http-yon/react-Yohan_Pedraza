@@ -3,7 +3,6 @@ import './App.css';
 function App() {
 
   let data = []
- 
 
   const inyectarData = () => {
     const elemt = document.querySelector('#tarea').value
@@ -12,7 +11,7 @@ function App() {
       alert("no se puede meter valores vacios");
     } else {
       data.push(elemt)
-      alert("datos ingresados");
+      alert("datos ingresados correctamente");
     }
   }
 
